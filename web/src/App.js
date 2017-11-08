@@ -5,6 +5,7 @@ import State from './05-state/Usage';
 import UserEvents from './06-user-events/Usage';
 import RenderProp from './07-render-prop/Usage';
 import HOC from './08-hoc/Usage';
+import Redux from './09-redux/Usage';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <UserEvents />
         <RenderProp />
         <HOC />
+        <Redux />
       </div>
     );
   }

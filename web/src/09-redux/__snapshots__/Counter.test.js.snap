@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`09-redux should render decrement 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(Counter)>
+    <Counter
+      decrement={[Function]}
+      increment={[Function]}
+      value={-1}
+    >
+      <div>
+        <div>
+          -1
+        </div>
+        <button
+          className="increment"
+          onClick={[Function]}
+        >
+          +1
+        </button>
+        <button
+          className="decrement"
+          onClick={[Function]}
+        >
+          -1
+        </button>
+      </div>
+    </Counter>
+  </Connect(Counter)>
+</Provider>
+`;
+
+exports[`09-redux should render increment 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(Counter)>
+    <Counter
+      decrement={[Function]}
+      increment={[Function]}
+      value={1}
+    >
+      <div>
+        <div>
+          1
+        </div>
+        <button
+          className="increment"
+          onClick={[Function]}
+        >
+          +1
+        </button>
+        <button
+          className="decrement"
+          onClick={[Function]}
+        >
+          -1
+        </button>
+      </div>
+    </Counter>
+  </Connect(Counter)>
+</Provider>
+`;
+
+exports[`09-redux should render initial state 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(Counter)>
+    <Counter
+      decrement={[Function]}
+      increment={[Function]}
+      value={0}
+    >
+      <div>
+        <div>
+          0
+        </div>
+        <button
+          className="increment"
+          onClick={[Function]}
+        >
+          +1
+        </button>
+        <button
+          className="decrement"
+          onClick={[Function]}
+        >
+          -1
+        </button>
+      </div>
+    </Counter>
+  </Connect(Counter)>
+</Provider>
+`;
+
+exports[`09-redux should update redux state 1`] = `
+"[
+  {
+    \\"state\\": {
+      \\"counter\\": 0
+    },
+    \\"action\\": {
+      \\"type\\": \\"DECREMENT\\"
+    },
+    \\"nextState\\": {
+      \\"counter\\": -1
+    }
+  },
+  {
+    \\"state\\": {
+      \\"counter\\": -1
+    },
+    \\"action\\": {
+      \\"type\\": \\"DECREMENT\\"
+    },
+    \\"nextState\\": {
+      \\"counter\\": -2
+    }
+  },
+  {
+    \\"state\\": {
+      \\"counter\\": -2
+    },
+    \\"action\\": {
+      \\"type\\": \\"INCREMENT\\"
+    },
+    \\"nextState\\": {
+      \\"counter\\": -1
+    }
+  }
+]"
+`;
