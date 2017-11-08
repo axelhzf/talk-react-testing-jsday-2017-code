@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`10-redux-async should render on fetch error 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(RandomGif)>
+    <RandomGif
+      fetchGif={[Function]}
+      gif={
+        Object {
+          "state": "loading",
+        }
+      }
+    >
+      <div>
+        Loading...
+      </div>
+    </RandomGif>
+  </Connect(RandomGif)>
+</Provider>
+`;
+
+exports[`10-redux-async should render on fetch error 2`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(RandomGif)>
+    <RandomGif
+      fetchGif={[Function]}
+      gif={
+        Object {
+          "state": "error",
+        }
+      }
+    >
+      <div>
+        Error
+      </div>
+    </RandomGif>
+  </Connect(RandomGif)>
+</Provider>
+`;
+
+exports[`10-redux-async should render on fetch success 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(RandomGif)>
+    <RandomGif
+      fetchGif={[Function]}
+      gif={
+        Object {
+          "state": "loading",
+        }
+      }
+    >
+      <div>
+        Loading...
+      </div>
+    </RandomGif>
+  </Connect(RandomGif)>
+</Provider>
+`;
+
+exports[`10-redux-async should render on fetch success 2`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(RandomGif)>
+    <RandomGif
+      fetchGif={[Function]}
+      gif={
+        Object {
+          "state": "success",
+          "url": "https://media2.giphy.com/media/2HONNTJbRhzKE/giphy.gif",
+        }
+      }
+    >
+      <div>
+        <img
+          src="https://media2.giphy.com/media/2HONNTJbRhzKE/giphy.gif"
+        />
+        <button
+          onClick={[Function]}
+        >
+          Random
+        </button>
+      </div>
+    </RandomGif>
+  </Connect(RandomGif)>
+</Provider>
+`;
