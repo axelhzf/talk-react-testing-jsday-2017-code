@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactTestRenderer from 'react-test-renderer';
+import { Message } from './Message';
+
+describe('02-jsx', () => {
+  it('should render a message', () => {
+    const renderer = ReactTestRenderer.create(<Message />);
+    expect(renderer.toJSON()).toEqual({
+      children: [
+        { children: ['Hello'], props: {}, type: 'h1' },
+        { children: ['World'], props: {}, type: 'h2' }
+      ],
+      props: { className: 'container' },
+      type: 'div'
+    });
+  });
+});

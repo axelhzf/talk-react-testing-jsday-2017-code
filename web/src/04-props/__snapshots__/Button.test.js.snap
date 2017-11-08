@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`04-props should render a button 1`] = `
+<button
+  disabled={undefined}
+>
+  Click me
+</button>
+`;
+
+exports[`04-props should render a disabled button 1`] = `
+<button
+  disabled={true}
+>
+  Disabled
+</button>
+`;

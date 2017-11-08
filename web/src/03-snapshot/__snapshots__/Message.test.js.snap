@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`02-jsx should render a message 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    Hello
+  </h1>
+  <h2>
+    World
+  </h2>
+</div>
+`;

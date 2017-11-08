@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`05-state should render a counter 1`] = `
+<Counter>
+  <div>
+    5
+  </div>
+</Counter>
+`;
