@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`08-hoc should render the component 1`] = `
+<div
+  className="withLabel"
+>
+  <label>
+    Name
+  </label>
+  <div
+    className="content"
+  >
+    <Input
+      onChange={[Function]}
+      value="Luke skywalker"
+    />
+  </div>
+</div>
+`;

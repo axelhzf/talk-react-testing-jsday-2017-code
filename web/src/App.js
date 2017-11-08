@@ -4,6 +4,7 @@ import Props from './04-props/Usage';
 import State from './05-state/Usage';
 import UserEvents from './06-user-events/Usage';
 import RenderProp from './07-render-prop/Usage';
+import HOC from './08-hoc/Usage';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <State />
         <UserEvents />
         <RenderProp />
+        <HOC />
       </div>
     );
   }
