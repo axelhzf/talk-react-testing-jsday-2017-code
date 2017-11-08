@@ -6,7 +6,7 @@ jest.useFakeTimers();
 
 describe('06-user-events', () => {
   it('should reset the counter when button is clicked', () => {
-    const wrapper = shallow(<Counter/>);
+    const wrapper = shallow(<Counter />);
     jest.runTimersToTime(5000);
 
     wrapper.update();
@@ -18,7 +18,7 @@ describe('06-user-events', () => {
   });
 
   it('should reset the when the user press r', () => {
-    const wrapper = shallow(<Counter/>);
+    const wrapper = shallow(<Counter />);
     jest.runTimersToTime(5000);
 
     wrapper.update();

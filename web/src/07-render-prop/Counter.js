@@ -1,6 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export class Counter extends React.Component {
+  static propTypes = {
+    render: PropTypes.func
+  };
+
   state = {
     value: 0
   };
@@ -31,17 +36,14 @@ export class Counter extends React.Component {
 
   handleResetClick = () => this.resetInterval();
 
-  handleKeyPress = e => {
-    if (e.key === 'r') {
-      this.resetInterval();
-    }
-  };
-
   render() {
+    const { render } = this.props;
     return (
-      <div className="container" tabIndex={0} onKeyPress={this.handleKeyPress}>
-        <div>{this.state.value}</div>
-        <button onClick={this.handleResetClick}>Reset</button>
+      <div>
+        {render({
+          value: this.state.value,
+          reset: this.handleResetClick
+        })}
       </div>
     );
   }

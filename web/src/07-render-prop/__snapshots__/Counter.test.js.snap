@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`07-render-prop should render the initial value with 0 1`] = `
+<div>
+  <div>
+    0
+  </div>
+</div>
+`;
+
+exports[`07-render-prop should reset the counter 1`] = `
+<div>
+  <div>
+    <div>
+      5
+    </div>
+    <button
+      onClick={[Function]}
+    >
+      reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`07-render-prop should reset the counter 2`] = `
+<div>
+  <div>
+    <div>
+      0
+    </div>
+    <button
+      onClick={[Function]}
+    >
+      reset
+    </button>
+  </div>
+</div>
+`;

@@ -4,7 +4,7 @@ import { Message } from './Message';
 
 describe('02-jsx', () => {
   it('should render a message', () => {
-    const renderer = ReactTestRenderer.create(<Message/>);
+    const renderer = ReactTestRenderer.create(<Message />);
     expect(renderer.toJSON()).toMatchSnapshot();
   });
 });

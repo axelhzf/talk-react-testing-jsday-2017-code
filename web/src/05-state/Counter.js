@@ -1,26 +1,21 @@
 import React from 'react';
 
 export class Counter extends React.Component {
-
   state = {
     value: 0
-  }
+  };
 
-  componentDidMount () {
+  componentDidMount() {
     this.interval = setInterval(() => {
       this.setState({ value: this.state.value + 1 });
     }, 1000);
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     clearInterval(this.interval);
   }
 
-  render () {
-    return (
-      <div>
-        {this.state.value}
-      </div>
-    )
+  render() {
+    return <div>{this.state.value}</div>;
   }
 }
