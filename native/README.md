@@ -1,0 +1,1 @@
+Preliminary note: The Expo.app binary must be downloaded and placed within /bin of this repo before the tests work. Please ensure you update package.json to match the filename of the Expo version you download.
