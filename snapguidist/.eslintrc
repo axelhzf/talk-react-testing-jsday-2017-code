@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "no-param-reassign": [2, { "props": false }],
+    "comma-dangle": [2, {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }],
+    "import/no-dynamic-require": 0,
+    "import/newline-after-import": 0
+  }
+}

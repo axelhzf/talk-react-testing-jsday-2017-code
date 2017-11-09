@@ -1,0 +1,5 @@
+exports[`Button-1 1`] = `
+<button>
+  Hello⚛
+</button>
+`;
